@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{58A57CF0-039F-4254-9058-797BE88D20D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gaia.Api", "src\Gaia.Api\Gaia.Api.csproj", "{491C640C-4ABB-4802-8D01-4B964606B9A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gaia.Application", "src\Gaia.Application\Gaia.Application.csproj", "{434E5DF5-EF07-4D71-B048-394B8CAF4C8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{491C640C-4ABB-4802-8D01-4B964606B9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491C640C-4ABB-4802-8D01-4B964606B9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491C640C-4ABB-4802-8D01-4B964606B9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491C640C-4ABB-4802-8D01-4B964606B9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434E5DF5-EF07-4D71-B048-394B8CAF4C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434E5DF5-EF07-4D71-B048-394B8CAF4C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434E5DF5-EF07-4D71-B048-394B8CAF4C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434E5DF5-EF07-4D71-B048-394B8CAF4C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{491C640C-4ABB-4802-8D01-4B964606B9A1} = {58A57CF0-039F-4254-9058-797BE88D20D7}
+		{434E5DF5-EF07-4D71-B048-394B8CAF4C8B} = {58A57CF0-039F-4254-9058-797BE88D20D7}
+	EndGlobalSection
+EndGlobal
